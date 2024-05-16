@@ -1,3 +1,8 @@
 body{
     background:grey;
 }
+
+.label-style{
+    font-size: 45px;
+    margin-bottom: 25px;
+}
