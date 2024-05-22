@@ -5,13 +5,12 @@ html, body {
 }
 
 body {
-    background: rgb(90,125,95);
-    background: linear-gradient(180deg, rgba(90,125,95,1) 0%, rgba(30,75,36,1) 100%);
+    background: linear-gradient(180deg, rgba(90, 125, 95, 1) 0%, rgba(30, 75, 36, 1) 100%);
     display: flex;
     flex-direction: column;
     min-height: 100%;
     color: #e6e6e6;
-
+    
 }
 
 .container {
@@ -21,14 +20,39 @@ body {
 .label-style {
     font-size: 45px;
     margin-bottom: 25px;
+    text-shadow: -0.5px -0.5px 0 #000, 0.5px -0.5px 0 #000, -0.5px 0.5px 0 #000, 0.5px 0.5px 0 #000;
 }
 
 .text-outline {
     text-shadow: -0.5px -0.5px 0 #000, 0.5px -0.5px 0 #000, -0.5px 0.5px 0 #000, 0.5px 0.5px 0 #000;
 }
 
-.navbar-brand{
+.navbar-brand {
     font-family: "Fondamento", cursive;
     font-weight: 400;
     font-style: normal;
+}
+
+.circle {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.circle img {
+    width: 100%;
+    height: auto;
+}
+
+p{
+    text-shadow: -0.5px -0.5px 0 #000, 0.5px -0.5px 0 #000, -0.5px 0.5px 0 #000, 0.5px 0.5px 0 #000;
+}
+
+h2{
+    text-shadow: -0.5px -0.5px 0 #000, 0.5px -0.5px 0 #000, -0.5px 0.5px 0 #000, 0.5px 0.5px 0 #000;
 }
