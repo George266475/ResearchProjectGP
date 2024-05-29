@@ -73,3 +73,21 @@ h4{
     background: linear-gradient(180deg, rgba(44,98,107,1) 0%, rgba(17,35,42,1) 100%);
 }
 
+
+.authority-image {
+    width: 100%; /* This makes the image take up the full width of its container */
+    max-width: 225px; /* Set a maximum width as needed */
+    height: auto; /* Maintain aspect ratio */
+}
+
+
+.authority-text-title {
+    font-size: 2.5rem; /* Adjust the font size as needed */
+    font-family: "Fondamento", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.authority-text {
+    font-size: 1.1rem; /* Adjust the font size as needed */
+}
